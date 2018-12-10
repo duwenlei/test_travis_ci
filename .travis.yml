@@ -7,7 +7,7 @@ script:
   - ./gradlew assemble
   - ./gradlew check
 
-before_script:
+before_install:
   - chmod a+x gradlew
 
 before_cache:
