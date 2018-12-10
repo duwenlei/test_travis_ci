@@ -1,6 +1,6 @@
 language: java
 script:
-  - chmod a+x ./gradlew
+  - sudo chmod +x ./gradlew
   - ./gradlew assemble
   - ./gradlew check
 
